@@ -7,7 +7,9 @@ public class AdditionLogics {
 		Integer result = 0;
 		for (Integer number : numbers) {
 			result += number;
+			System.out.println(result);
 		}
+		System.out.println("total result : " + result);
 		return result;
 	}
 
