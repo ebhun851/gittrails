@@ -1,0 +1,17 @@
+defaultTasks 'clean', 'build'
+
+
+repositories {
+    mavenCentral()
+}
+
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse'
+apply plugin: 'jetty'
+
+dependencies {
+	compile group: 'junit-addons', name: 'junit-addons', version: '1.4'
+	testCompile group: 'junit', name: 'junit', version: '4.+'
+}
