@@ -3,6 +3,7 @@ package com.general.logics;
 public class AdditionLogics {
 
 	public int getAdditionNumbers(Integer...numbers) {
+		//TODO: We should improve this logic to support for String type inputs as well
 		Integer result = 0;
 		for (Integer number : numbers) {
 			result += number;
